@@ -33,7 +33,7 @@ export default function HomeSection() {
             Olá, eu sou <span className="text-primary">Paulo Sérgio</span>
           </h1>
           <p className="max-w-2xl lg:text-lg text-light/80 mt-4">
-            Desenvolvedor FullStack com foco em soluções modernas e criativas para web, unindo design e performance para criar aplicações incríveis, funcionais que mudarão o dia-a-dia!
+            Desenvolvedor FullStack com foco em soluções modernas e criativas, unindo design e performance para criar aplicações incríveis, funcionais que mudarão o dia-a-dia!
           </p>
 
           {/* BOTÕES */}
@@ -71,7 +71,7 @@ export default function HomeSection() {
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="https://instagram.com/seuinstagram"
+                href="https://instagram.com/pauloss.f"
                 target="_blank"
                 className="p-3 border border-primary rounded-full text-primary hover:bg-primary hover:text-dark transition"
               >
