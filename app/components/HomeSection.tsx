@@ -33,10 +33,7 @@ export default function HomeSection() {
             Olá, eu sou <span className="text-primary">Paulo Sérgio</span>
           </h1>
           <p className="max-w-2xl lg:text-lg text-light/80 mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ad
-            consequatur sunt enim vitae ipsum beatae iure molestiae expedita
-            magnam odit modi accusantium fuga accusamus repellendus, ratione
-            debitis aliquam esse!
+            Desenvolvedor FullStack com foco em soluções modernas e criativas para web, unindo design e performance para criar aplicações incríveis, funcionais que mudarão o dia-a-dia!
           </p>
 
           {/* BOTÕES */}
