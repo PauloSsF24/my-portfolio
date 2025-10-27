@@ -71,7 +71,7 @@ export default function HomeSection() {
                 <FaLinkedin size={20} />
               </a>
               <a
-                href="https://instagram.com/pauloss.f"
+                href="https://instagram.com/zero.umtech"
                 target="_blank"
                 className="p-3 border border-primary rounded-full text-primary hover:bg-primary hover:text-dark transition"
               >
