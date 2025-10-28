@@ -14,10 +14,9 @@ const Navbar = () => {
     { href: "#contato", label: "Contato" },
   ];
 
-  // Detecta a seção visível
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPos = window.scrollY + 100; // ajuste para o topo da navbar
+      const scrollPos = window.scrollY + 100;
       links.forEach((link) => {
         const section = document.querySelector(link.href);
         if (section) {
@@ -31,7 +30,7 @@ const Navbar = () => {
     };
 
     window.addEventListener("scroll", handleScroll);
-    handleScroll(); // inicializa o destaque na primeira renderização
+    handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
